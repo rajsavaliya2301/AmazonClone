@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazon</title>
+  <link rel="stylesheet" href="./sty.css">
+  <script src="./script.js"></script>
+</head>
+<body>
+    <div class="banner">
+        <h1>Great Indian Festival</h1>
+        <p>Shop the best deals on electronics, fashion, and more.</p>
+      </div>
+      <ul>
+        <li><a class="active" href="">Smaryphone</a></li>
+        <li><a href="#news">Laptop</a></li>
+        <li><a href="#contact">WashingMatchine</a></li>
+        <li><a href="#about">Cycles</a></li>
+      </ul>
+    
+        <div class="products" id="products">
+          <!-- Product cards will be injected here by JavaScript -->
+        </div>
+      </div>
+  <header>
+    <div class="logo">Amazon</div>
+      <input type="text" class="search-bar" placeholder="Search for products">
+    <div class="header-right">
+        <a href="https://sellercentral.amazon.com/ap/signin?clientContext=131-5450916-1949106&openid.pape.max_auth_age=900&openid.return_to=https%3A%2F%2Fsellercentral.amazon.com%2Fgp%2Fhomepage.html&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=sc_na_amazon_v2&openid.mode=checkid_setup&language=en_US&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=sc_amazon_v3_unified&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&mons_redirect=sign_in&ssoResponse=eyJ6aXAiOiJERUYiLCJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiQTI1NktXIn0.VdFuXu8UiOCc9KSDzQaAcuh5NV8mTDsHC6S6nRfRLgsHxTzvAl0BWg.p_w4TpyKMbOtcZFl.3gO5aUd5DEeoCourVwFzC7x_So6lNCZiKr1Ncp5rCPrb2OO8N6swPJ7Y00kVztTOF3lr1hpRrtfxa6smbriW_Zj16OhVjmrBCmNo3wZnTWpQDx9Og7Rj_ho0_A4fL5hTGnmXU4cp3XBabHuenon49d0kgEL82nbiyU7mUbnY8muvRoLcFpDRb_dAVm9a2MXs8Kekr0gb5Q.Kv3z6HHkKjEDTJjfKVBc7A">Login</a>
+    </div>
+  </header>
+
+
+</header>
+
+
+<div class="cart">
+  <h2>Your Cart</h2>
+  <div id="cart-items">
+    <h3>Number of items in cart :</h3>
+    <span id="demo"></span>
+  </div>
+  <button onclick="checkout()">Proceed to Checkout</button>
+</div>
+  
+  <div class="product-details">
+    <h1>MOBILES</h1>
+    <div>
+    <img id="product-image" src="mobile.jpg" alt="iphone 15">
+    <h2 id="iphone 15"></h2>
+    <span>Iphone 15</span>
+    <span><strong>Price:65,000</strong> <span id="product-price"></span> INR</span>
+    <button onclick="clicks()">Add to cart</button>
+  </div>
+  <div>
+    <img id="product-image" src="m3.jpg" alt="galaxy s24-ultra">
+    <h2 id="galaxy s24-ultra"></h2>
+    <p>Samsung S24-Ultra</p>
+    <span><strong>Price:1,65,000</strong> <span id="product-price"></span> INR</span>
+    <button onclick="clicks()">Add to Cart</button>
+  </div>
+  <div>
+    <img id="product-image" src="m4.jpg" alt="pixel 7-pro">
+    <h2 id="pixel 7-pro"></h2>
+    <span>Google pixel 7 pro</span>
+    <span><strong>Price:35,000</strong> <span id="product-price"></span> INR</span>
+    <button onclick="clicks()">Add to Cart</button>
+    </div>
+    <div>
+    <img id="product-image" src="m2.jpg" alt="galaxy s23 fe">
+    <h2 id="Galaxy s23 fe"></h2>
+    <span>Samsung galaxy S23 FE</span>
+    <span><strong>Price:55,000</strong> <span id="product-price"></span> INR</span>
+    <button onclick="clicks()">Add to Cart</button>
+    </div>
+  </div>
+
+</body>
+</html>
